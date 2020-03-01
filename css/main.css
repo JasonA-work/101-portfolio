@@ -35,7 +35,7 @@ h3 {
     font-size: 36px;
     text-align: center;
     margin-top: 0px;
-    padding-top: 50px;
+    padding: 60px 0px 20px 0px;
 }
 
 h4 {
@@ -115,11 +115,11 @@ nav ul li a {
 }
 
 #portfolio .full-width {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #portfolio-text h4 {
-    color:#;
+    color:#1b262c;
     text-align: left;
 }
 
@@ -130,6 +130,12 @@ nav ul li a {
 
 #portfolio-text p {
     color: #1b262c;
+}
+
+#portfolio img {
+    width: 450px;
+    margin-left: 100px;
+    border: 1px solid #D6EAF8;
 }
 
 /*****ABOUT ME*****/
@@ -152,10 +158,23 @@ nav ul li a {
 
 #about-me p {
     color: #d2e1e4;
+    line-height: 32px;
 }
 
 #about-me .half-width {
     margin-bottom: 100px;
+}
+
+#about-me img {
+    margin-left: 100px;
+}
+
+#about-me ul li {
+    color: #d2e1e4;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    text-decoration: none;
 }
 
 /*****FOOTER*****/
