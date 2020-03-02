@@ -62,9 +62,7 @@ p {
     width: 600px;
     float: left;
 }
-.section-one,
-.section-two,
-.section-three {
+.third-width {
     width: 400px;
     height: auto;
     float: left;
@@ -136,6 +134,14 @@ nav ul li a {
     width: 450px;
     margin-left: 100px;
     border: 1px solid #D6EAF8;
+}
+
+#portfolio a {
+    color: #0f4c75;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 /*****ABOUT ME*****/
