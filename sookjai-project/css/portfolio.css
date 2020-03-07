@@ -73,24 +73,33 @@ p {
 /*****HEADER*****/
 
 header {
-    height: 600px;
-    background: url('../img/hero-image.jpg') no-repeat #FFFFFF;
+    height: 400px;
+    background-color: #0f4c75;
     background-size: cover;
 }
 
-#sookjai-page header {
-    height: 0px;
+#portfolio h3 {
+    padding: 40px 0px 20px 0px;
+
+}
+
+#sookjai-page img {
+    width: 300px;
 }
 
 .hero-tag {
     margin: auto;
-    padding-top: 140px;
+    padding-top: 50px;
     padding-left: 50px;
-    width: 600px;
+    width: 700px;
 }
 
 .hero-tag span {
     color: #ffffff;
+}
+
+.hero-tag h2 {
+    margin-top: 10px;
 }
 
 nav {
@@ -111,7 +120,7 @@ nav ul li a {
 }
 
 .nav {
-    padding-left: 60px;
+    padding-left: 0px;
 }
 
 /*****PORTFOLIO*****/
@@ -121,7 +130,7 @@ nav ul li a {
 }
 
 #portfolio .full-width {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 }
 
 #portfolio-text h4 {
@@ -134,11 +143,24 @@ nav ul li a {
     font-size: 24px;
 }
 
-#portfolio-text p {
+#portfolio .full-width p {
     color: #1b262c;
+    line-height: 35px;
+    width: 1200px;
 }
 
-#portfolio img {
+#portfolio .half-width p {
+    color: #1b262c;
+    line-height: 35px;
+    width: 450px;
+}
+
+#portfolio .full-width img {
+    width: 1198px;
+    border: 1px solid #D6EAF8;
+}
+
+#portfolio .half-width img {
     width: 450px;
     margin-left: 100px;
     border: 1px solid #D6EAF8;
@@ -150,6 +172,10 @@ nav ul li a {
     font-weight: 300;
     text-decoration: none;
     font-size: 22px;
+}
+
+.body-bottom {
+    padding-bottom: 70px;
 }
 
 /*****ABOUT ME*****/
@@ -180,7 +206,7 @@ nav ul li a {
 }
 
 #about-me img {
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 #about-me ul li {
