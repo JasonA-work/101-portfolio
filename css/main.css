@@ -221,7 +221,7 @@ footer {
     font-size: 18px;
 }
 
-/*****PORTFOLIO PAGE STYLES*****/
+/*****SOOKJAI STYLES*****/
 
 /*****HEADER*****/
 
@@ -308,4 +308,78 @@ footer {
 
 .body-bottom {
     padding-bottom: 70px;
+}
+
+/*****SOOKJAI STYLES*****/
+
+/*****HEADER*****/
+
+.avpa-portfolio-header {
+    height: 400px;
+    background-image: none;
+    background-color: #0f4c75;
+    background-size: cover;
+}
+
+.avpa-portfolio-header .hero-tag {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 700px;
+}
+
+.avpa-portfolio-header img {
+	    width: 600px;
+}
+
+.avpa-portfolio-header .hero-tag h2 {
+	    margin-top: 10px;
+	}
+
+.avpa-portfolio-nav {
+    padding-left: 0px;
+}
+
+/*****SHOWCASE*****/
+
+#showcase h3 {
+    padding: 40px 0px 20px 0px;
+}
+
+.calendar p {
+    margin-bottom: 70px;
+}
+
+/*****SAXOPHONE*****/
+
+
+#saxophone {
+    background-color: #0f4c75;
+}
+
+#saxophone img {
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#saxophone h4 {
+    color: #d2e1e4;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 85px;
+}
+
+#saxophone p {
+    color: #d2e1e4;
+    line-height: 32px;
+}
+
+#saxophone a {
+    color: #d2e1e4;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
 }
