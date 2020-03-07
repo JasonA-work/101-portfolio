@@ -78,10 +78,6 @@ header {
     background-size: cover;
 }
 
-#sookjai-page header {
-    height: 0px;
-}
-
 .hero-tag {
     margin: auto;
     padding-top: 140px;
@@ -181,6 +177,7 @@ nav ul li a {
 
 #about-me img {
     margin-left: 100px;
+    width: 380px;
 }
 
 #about-me ul li {
@@ -222,4 +219,93 @@ footer {
 .copyright p {
     margin-top: 100px;
     font-size: 18px;
+}
+
+/*****PORTFOLIO PAGE STYLES*****/
+
+/*****HEADER*****/
+
+.portfolio-header {
+    height: 400px;
+    background-image: none;
+    background-color: #0f4c75;
+    background-size: cover;
+}
+
+#showcase h3 {
+	    padding: 40px 0px 20px 0px;
+}
+
+.portfolio-header .hero-tag {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 700px;
+}
+
+.portfolio-header img {
+	    width: 300px;
+}
+
+.portfolio-header .hero-tag h2 {
+	    margin-top: 10px;
+	}
+
+.portfolio-nav {
+    padding-left: 0px;
+}
+
+/*****SHOWCASE*****/
+
+#showcase h3 {
+	    color: #1b262c;
+}
+
+#showcase .full-width {
+    margin-bottom: 0px;
+}
+
+#showcase h4 {
+    color:#1b262c;
+    text-align: left;
+}
+
+#showcase span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#showcase .full-width p {
+    color: #1b262c;
+    line-height: 35px;
+    width: 1200px;
+}
+
+#showcase .half-width p {
+    color: #1b262c;
+    line-height: 35px;
+    width: 450px;
+}
+
+#showcase .full-width img {
+    width: 1198px;
+    border: 1px solid #D6EAF8;
+}
+
+#showcase .half-width img {
+    width: 450px;
+    margin-left: 100px;
+    border: 1px solid #D6EAF8;
+}
+
+#showcase a {
+    color: #0f4c75;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.body-bottom {
+    padding-bottom: 70px;
 }
