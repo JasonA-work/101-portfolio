@@ -11,7 +11,7 @@ body {
     height: auto;
 }
 
-h1 { 
+h1 {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 45px;
@@ -58,10 +58,12 @@ p {
     margin: 0 auto;
     overflow: auto;
     }
+
 .half-width {
     width: 600px;
     float: left;
 }
+
 .third-width {
     width: 400px;
     height: auto;
@@ -86,14 +88,16 @@ header {
 .hero-tag span {
     color: #ffffff;
 }
-    
+
 nav {
     float: right; 
     padding: 40px 25px;
 }
+
 nav ul li{
     display: inline-block;
 }
+
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
@@ -157,14 +161,13 @@ nav ul li a {
 
 #about-me h3 {
     color: #d2e1e4;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 #about-me h4 {
     color: #d2e1e4;
     font-weight: 700;
     text-align: left;
-
 }
 
 #about-me p {
@@ -178,6 +181,7 @@ nav ul li a {
 
 #about-me img {
     margin-left: 100px;
+    width: 380px;
 }
 
 #about-me ul li {
@@ -202,10 +206,15 @@ footer {
 #contact p {
     color: white;
     text-align: center;
+    line-height: 32px;
 }
 
 .social-icons {
-    padding-left: 70px;
+    padding-left: 92px;
+}
+
+.social-icons img {
+    width: 35px;
 }
 
 .social-icons a {
@@ -213,6 +222,191 @@ footer {
 }
 
 .copyright p {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 18px;
+}
+
+/*****PORTFOLIO PAGES STYLES*****/
+
+/*****HEADER*****/
+
+.portfolio-header {
+    height: 400px;
+    background-image: none;
+    background-color: #0f4c75;
+    background-size: cover;
+}
+
+#showcase h3 {
+	    padding: 40px 0px 20px 0px;
+}
+
+.portfolio-header .hero-tag {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 700px;
+}
+
+.portfolio-header img {
+	    width: 300px;
+}
+
+.portfolio-header .hero-tag h2 {
+	    margin-top: 10px;
+	}
+
+.portfolio-nav {
+    padding-left: 0px;
+}
+
+/*****SHOWCASE*****/
+
+#showcase h3 {
+	    color: #1b262c;
+}
+
+#showcase .full-width {
+    margin-bottom: 0px;
+}
+
+#showcase h4 {
+    color:#1b262c;
+    text-align: left;
+}
+
+#showcase span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#showcase .full-width p {
+    color: #1b262c;
+    line-height: 35px;
+    width: 1200px;
+}
+
+#showcase .half-width p {
+    color: #1b262c;
+    line-height: 35px;
+    width: 450px;
+}
+
+#showcase .full-width img {
+    width: 1198px;
+    border: 1px solid #D6EAF8;
+}
+
+#showcase .half-width img {
+    width: 450px;
+    margin-left: 100px;
+    border: 1px solid #D6EAF8;
+}
+
+#showcase a {
+    color: #0f4c75;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.body-bottom {
+    padding-bottom: 70px;
+}
+
+/*****SOOKJAI STYLES*****/
+
+/*****HEADER*****/
+
+.avpa-portfolio-header {
+    height: 400px;
+    background-image: none;
+    background-color: #0f4c75;
+    background-size: cover;
+}
+
+.avpa-portfolio-header .hero-tag {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 700px;
+}
+
+.avpa-portfolio-header img {
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.avpa-portfolio-header .hero-tag h2 {
+    margin-top: 10px;
+}
+
+.avpa-portfolio-nav {
+    padding-left: 0px;
+}
+
+/*****SHOWCASE*****/
+
+#showcase h3 {
+    margin: 0px;
+    padding: 50px 0px;
+}
+
+.calendar p {
+    margin-bottom: 70px;
+}
+
+#half-showcase {
+    padding: 70px;
+}
+
+#half-showcase img {
+    width: 500px;   
+    border: 1px solid #D6EAF8;
+}
+
+#half-showcase p {
+    line-height: 32px;
+}
+
+#half-showcase h4 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+/*****SAXOPHONE*****/
+
+
+#saxophone {
+    background-color: #0f4c75;
+}
+
+#saxophone img {
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#saxophone h4 {
+    color: #d2e1e4;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 85px;
+}
+
+#saxophone p {
+    color: #d2e1e4;
+    line-height: 32px;
+}
+
+#saxophone a {
+    color: #d2e1e4;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
 }
