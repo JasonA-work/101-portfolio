@@ -156,14 +156,13 @@ nav ul li a {
 
 #about-me h3 {
     color: #d2e1e4;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 #about-me h4 {
     color: #d2e1e4;
     font-weight: 700;
     text-align: left;
-
 }
 
 #about-me p {
@@ -202,6 +201,7 @@ footer {
 #contact p {
     color: white;
     text-align: center;
+    line-height: 32px;
 }
 
 .social-icons {
@@ -217,11 +217,11 @@ footer {
 }
 
 .copyright p {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 18px;
 }
 
-/*****SOOKJAI STYLES*****/
+/*****PORTFOLIO PAGES STYLES*****/
 
 /*****HEADER*****/
 
@@ -329,12 +329,14 @@ footer {
 }
 
 .avpa-portfolio-header img {
-	    width: 600px;
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .avpa-portfolio-header .hero-tag h2 {
-	    margin-top: 10px;
-	}
+    margin-top: 10px;
+}
 
 .avpa-portfolio-nav {
     padding-left: 0px;
@@ -343,11 +345,31 @@ footer {
 /*****SHOWCASE*****/
 
 #showcase h3 {
-    padding: 40px 0px 20px 0px;
+    margin: 0px;
+    padding: 50px 0px;
 }
 
 .calendar p {
     margin-bottom: 70px;
+}
+
+#half-showcase {
+    padding: 70px;
+}
+
+#half-showcase img {
+    width: 500px;   
+    border: 1px solid #D6EAF8;
+}
+
+#half-showcase p {
+    line-height: 32px;
+}
+
+#half-showcase h4 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
 }
 
 /*****SAXOPHONE*****/
