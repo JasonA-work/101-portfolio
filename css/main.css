@@ -104,6 +104,12 @@ nav ul li a {
     font-size: 18px;
     color: #EBF5FB;
     padding-left: 60px;
+    opacity: 80%;
+}
+
+nav a:hover {
+    color: white;
+    opacity: 100%;
 }
 
 .nav {
@@ -142,7 +148,7 @@ nav ul li a {
 #portfolio img {
     width: 450px;
     margin-left: 100px;
-    border: 1px solid #D6EAF8;
+    border: 1px solid #d6eaf8;
 }
 
 #portfolio a {
@@ -151,6 +157,10 @@ nav ul li a {
     font-weight: 300;
     text-decoration: none;
     font-size: 22px;
+}
+
+#portfolio a:hover {
+    color: #0066cc;
 }
 
 /*****ABOUT ME*****/
@@ -219,6 +229,11 @@ footer {
 
 .social-icons a {
     padding-right: 50px;
+    opacity: 80%;
+}
+
+.social-icons a:hover {
+    opacity: 100%;
 }
 
 .copyright p {
