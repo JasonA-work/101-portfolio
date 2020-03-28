@@ -51,6 +51,10 @@ p {
     text-align: left;
 }
 
+a {
+    cursor: pointer;
+}
+
 /****** GRID ******/
 
 .full-width {
